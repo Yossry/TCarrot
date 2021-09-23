@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<odoo>
+
+	<record model="ir.actions.act_window" id="action_recurring_entry">
+		<field name="name">Recurring Entries</field>
+		<field name="type">ir.actions.act_window</field>
+		<field name="res_model">recurring.entry</field>
+		<field name="view_mode">tree,form</field>
+	</record>
+
+</odoo>

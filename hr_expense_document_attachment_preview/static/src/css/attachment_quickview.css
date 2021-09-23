@@ -1,0 +1,19 @@
+#attachment_quickview {
+    margin-top:16px;
+}
+
+#attachment_quickview .attachment-quickview-item {
+    display: inline;
+}
+
+#attachment_quickview .attachment-quickview-item > a {
+    display:inline-block;
+    text-align:center;
+    margin-right:15px;
+    margin-bottom:20px;
+}
+#attachment_quickview .attachment-quickview-item > a > img {
+    border: 1px solid #c8c8d3;
+    height: 200px;
+    max-width: 100%;
+}

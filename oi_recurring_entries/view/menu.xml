@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<odoo>
+	
+	<menuitem id="menu_recurring_entry" action="action_recurring_entry" parent="account.menu_finance_entries" />
+
+</odoo>

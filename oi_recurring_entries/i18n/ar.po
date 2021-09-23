@@ -1,0 +1,1233 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* oi_recurring_entries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0-20191026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-27 09:07+0000\n"
+"PO-Revision-Date: 2019-10-27 12:47+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: ar_SA\n"
+"X-Generator: Poedit 2.2.3\n"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__access_warning
+msgid "Access warning"
+msgstr "تحذير من خطأ بالوصول"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__account_id
+msgid "Account"
+msgstr "الحساب"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__account_root_id
+msgid "Account Root"
+msgstr "أصل الحساب"
+
+#. module: oi_recurring_entries
+#: model_terms:ir.ui.view,arch_db:oi_recurring_entries.view_recurring_entry_line_form
+msgid "Accounting Documents"
+msgstr "المستندات المحاسبية"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__message_needaction
+msgid "Action Needed"
+msgstr "إجراء مطلوب"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__activity_ids
+msgid "Activities"
+msgstr "الأنشطة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__activity_state
+msgid "Activity State"
+msgstr "حالة النشاط"
+
+#. module: oi_recurring_entries
+#: model_terms:ir.ui.view,arch_db:oi_recurring_entries.view_recurring_entry_form
+msgid "Add an internal note..."
+msgstr "إضافة ملاحظة داخلية..."
+
+#. module: oi_recurring_entries
+#: model_terms:ir.ui.view,arch_db:oi_recurring_entries.view_recurring_entry_line_form
+msgid "Amount"
+msgstr "المبلغ"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__amount_residual
+msgid "Amount Due"
+msgstr "المبلغ المستحق"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__amount_residual_signed
+msgid "Amount Due Signed"
+msgstr "المبلغ المستحق الموقع"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__amount_currency
+msgid "Amount in Currency"
+msgstr "المبلغ بالعملة"
+
+#. module: oi_recurring_entries
+#: model_terms:ir.ui.view,arch_db:oi_recurring_entries.view_recurring_entry_line_form
+msgid "Analytic"
+msgstr "تحليلي"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__analytic_account_id
+msgid "Analytic Account"
+msgstr "الحساب التحليلي"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__analytic_tag_ids
+msgid "Analytic Tags"
+msgstr "الوسوم التحليلية"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__analytic_line_ids
+msgid "Analytic lines"
+msgstr "البنود التحليلية"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__tax_exigible
+msgid "Appears in VAT report"
+msgstr "يظهر في تقرير ضريبة القيمة المضافة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__invoice_vendor_bill_id
+msgid "Auto-complete from a past bill."
+msgstr "إكمال تلقائي من فاتورة سابقة."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields.selection,name:oi_recurring_entries.selection__recurring_entry__recurring_type__draft
+msgid "Automatic (Draft)"
+msgstr "تلقائي (مسودة)"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields.selection,name:oi_recurring_entries.selection__recurring_entry__recurring_type__post
+msgid "Automatic (Post)"
+msgstr "تلقائي (مرحل)"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__balance
+msgid "Balance"
+msgstr "الرصيد"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_partner_bank_id
+msgid "Bank Account"
+msgstr "حساب بنكي"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__invoice_partner_bank_id
+msgid ""
+"Bank Account Number to which the invoice will be paid. A Company bank "
+"account if this is a Customer Invoice or Vendor Credit Note, otherwise a "
+"Partner bank account number."
+msgstr ""
+"رقم الحساب البنكي الذي ستسدد قيمة الفاتورة فيه. حساب المؤسسة البنكي إذا "
+"كانت فاتورة عميل أو إشعار خصم مورد، أو سيتم استخدام رقم الحساب البنكي "
+"للشريك."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__bank_partner_id
+msgid "Bank Partner"
+msgstr "الشريك البنكي"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__statement_line_id
+msgid "Bank statement line reconciled with this entry"
+msgstr "تسوية بند كشف الحساب البنكي بهذا القيد"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__tax_base_amount
+msgid "Base Amount"
+msgstr "المبلغ الأساسي"
+
+#. module: oi_recurring_entries
+#: code:addons/oi_recurring_entries/models/recurring_entry.py:0
+#, python-format
+msgid "Cannot create unbalanced journal entry."
+msgstr "لا يمكن إنشاء إدخال دفتر يوميه غير متوازن."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_cash_rounding_id
+msgid "Cash Rounding Method"
+msgstr "طريقة تقريب النقدية"
+
+#. module: oi_recurring_entries
+#: model_terms:ir.ui.view,arch_db:oi_recurring_entries.view_recurring_entry_form
+msgid "Close"
+msgstr "إغلاق"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields.selection,name:oi_recurring_entries.selection__recurring_entry__recurring_state__closed
+msgid "Closed"
+msgstr "مغلق"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__commercial_partner_id
+msgid "Commercial Entity"
+msgstr "الكيان التجاري"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__company_id
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__company_id
+msgid "Company"
+msgstr "الشركة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__company_currency_id
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__company_currency_id
+msgid "Company Currency"
+msgstr "عملة المؤسسة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__company_id
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__company_id
+msgid "Company related to this journal"
+msgstr "المؤسسة المرتبطة بدفتر اليومية هذا"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__tax_audit
+msgid ""
+"Computed field, listing the tax grids impacted by this line, and the amount "
+"it applies to each of them."
+msgstr ""
+"الحقل المحسوب ، سرد الشبكات الضريبية المتاثره بهذا الخط ، والمبلغ الذي "
+"ينطبق علي كل منها."
+
+#. module: oi_recurring_entries
+#: model_terms:ir.ui.view,arch_db:oi_recurring_entries.view_recurring_entry_form
+msgid "Confirm"
+msgstr "تأكيد"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__country_id
+msgid "Country"
+msgstr "الدولة"
+
+#. module: oi_recurring_entries
+#: model_terms:ir.ui.view,arch_db:oi_recurring_entries.view_recurring_entry_form
+msgid "Create Entry"
+msgstr "إنشاء قيد"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__create_uid
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__create_uid
+msgid "Created by"
+msgstr "أنشئ بواسطة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__create_date
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__create_date
+msgid "Created on"
+msgstr "أنشئ في"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__credit
+msgid "Credit"
+msgstr "الدائن"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__matched_credit_ids
+msgid "Credit journal items that are matched with this journal item."
+msgstr "عناصر اليومية الدائنة المتطابقة مع عنصر اليومية المُختار."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__currency_id
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__currency_id
+#: model_terms:ir.ui.view,arch_db:oi_recurring_entries.view_recurring_entry_line_form
+msgid "Currency"
+msgstr "العملة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__access_url
+msgid "Customer Portal URL"
+msgstr "رابط بوابة العميل"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__debit
+msgid "Debit"
+msgstr "المدين"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__matched_debit_ids
+msgid "Debit journal items that are matched with this journal item."
+msgstr "عناصر اليومية المدينة المتطابقة مع عنصر اليومية المُختار."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__invoice_cash_rounding_id
+msgid ""
+"Defines the smallest coinage of the currency that can be used to pay by "
+"cash."
+msgstr "يحدد أصغر فئة عملة يمكن استخدامها في السداد النقدي."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__discount
+msgid "Discount (%)"
+msgstr "الخصم (%)"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__display_name
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__display_type
+msgid "Display Type"
+msgstr "نوع العرض"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields.selection,name:oi_recurring_entries.selection__recurring_entry__recurring_state__draft
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_date_due
+msgid "Due Date"
+msgstr "تاريخ الاستحقاق"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__date_end
+msgid "End Date"
+msgstr "تاريخ الانتهاء"
+
+#. module: oi_recurring_entries
+#: model_terms:ir.ui.view,arch_db:oi_recurring_entries.view_recurring_entry_form
+msgid "Entries"
+msgstr "المدخلات"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__entries_count
+msgid "Entries Count"
+msgstr "عدد الإدخالات"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__exclude_from_invoice_tab
+msgid "Exclude From Invoice Tab"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__expense_id
+msgid "Expense"
+msgstr "المصروف"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__expense_id
+msgid "Expense where the move line come from"
+msgstr "المصروف الذي نشأ منه بند التحرك"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__fiscal_position_id
+msgid "Fiscal Position"
+msgstr "الموقف الضريبي"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__fiscal_position_id
+msgid ""
+"Fiscal positions are used to adapt taxes and accounts for particular "
+"customers or sales orders/invoices. The default value comes from the "
+"customer."
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__message_follower_ids
+msgid "Followers"
+msgstr "المتابعون"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "المتابعون (القنوات)"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "المتابعون (الشركاء)"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__always_set_currency_id
+msgid "Foreign Currency"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.actions.server,name:oi_recurring_entries.cron_create_entries_ir_actions_server
+#: model:ir.cron,cron_name:oi_recurring_entries.cron_create_entries
+#: model:ir.cron,name:oi_recurring_entries.cron_create_entries
+msgid "Generate Recurring Entries"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__has_reconciled_entries
+msgid "Has Reconciled Entries"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__id
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__activity_exception_icon
+msgid "Icon"
+msgstr "الأيقونة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__message_needaction
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "إذا كان محددًا، فهناك رسائل جديدة تحتاج لرؤيتها."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__message_has_error
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "إذا كان محددًا، فقد حدث خطأ في تسليم بعض الرسائل."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__to_check
+msgid ""
+"If this checkbox is ticked, it means that the user was not sure of all the "
+"related informations at the time of the creation of the move and that the "
+"move needs to be checked again."
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__auto_post
+msgid ""
+"If this checkbox is ticked, this entry will be automatically posted at its "
+"date."
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__restrict_mode_hash_table
+msgid ""
+"If ticked, the accounting entry or invoice receives a hash as soon as it is "
+"posted and cannot be modified anymore."
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__inalterable_hash
+msgid "Inalterability Hash"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__secure_sequence_number
+msgid "Inalteralbility No Gap Sequence #"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_incoterm_id
+msgid "Incoterm"
+msgstr "شرط تجاري"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__tax_line_id
+msgid "Indicates that this journal item is a tax line"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model_terms:ir.ui.view,arch_db:oi_recurring_entries.view_recurring_entry_line_form
+msgid "Information"
+msgstr "معلومات"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__narration
+msgid "Internal Note"
+msgstr "ملاحظة داخلية"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__account_internal_type
+msgid "Internal Type"
+msgstr "نوع داخلي"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__invoice_incoterm_id
+msgid ""
+"International Commercial Terms are a series of predefined commercial terms "
+"used in international transactions."
+msgstr ""
+"الشروط التجارية الدولية هي مجموعة من الشروط والأحكام مسبقة الإعداد، وتستخدم "
+"عادة في المعاملات الدولية."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_filter_type_domain
+msgid "Invoice Filter Type Domain"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_has_matching_suspense_amount
+msgid "Invoice Has Matching Suspense Amount"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_has_outstanding
+msgid "Invoice Has Outstanding"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_outstanding_credits_debits_widget
+msgid "Invoice Outstanding Credits Debits Widget"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_partner_display_name
+msgid "Invoice Partner Display Name"
+msgstr "اسم عرض شريك الفاتورة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_partner_icon
+msgid "Invoice Partner Icon"
+msgstr "رمز شريك الفاتورة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_payments_widget
+msgid "Invoice Payments Widget"
+msgstr "أداة دفع الفواتير"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_sent
+msgid "Invoice Sent"
+msgstr "تم إرسال الفاتورة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_line_ids
+msgid "Invoice lines"
+msgstr "أسطر الفاتورة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_date
+msgid "Invoice/Bill Date"
+msgstr "تاريخ الفاتورة/فاتورة البائع"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__message_is_follower
+msgid "Is Follower"
+msgstr "متابع"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__is_rounding_line
+msgid "Is Rounding Line"
+msgstr "سطر تقريبي"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__invoice_sent
+msgid "It indicates that the invoice has been sent."
+msgstr "يشير هذا إلى أن الفاتورة قد تم إرسالها."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__journal_id
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__journal_id
+msgid "Journal"
+msgstr "دفتر اليومية"
+
+#. module: oi_recurring_entries
+#: model:ir.model,name:oi_recurring_entries.model_account_move
+msgid "Journal Entries"
+msgstr "القيود اليومية"
+
+#. module: oi_recurring_entries
+#: model_terms:ir.ui.view,arch_db:oi_recurring_entries.view_recurring_entry_line_form
+msgid "Journal Item"
+msgstr "عنصر اليومية"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__line_ids
+#: model_terms:ir.ui.view,arch_db:oi_recurring_entries.view_recurring_entry_form
+msgid "Journal Items"
+msgstr "عناصر اليومية"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__name
+msgid "Label"
+msgstr "بطاقة عنوان"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry____last_update
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__write_uid
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__write_date
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__restrict_mode_hash_table
+msgid "Lock Posted Entries with Hash"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "المرفق الرئيسي"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields.selection,name:oi_recurring_entries.selection__recurring_entry__recurring_type__manual
+msgid "Manually"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__matched_credit_ids
+msgid "Matched Credits"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__matched_debit_ids
+msgid "Matched Debits"
+msgstr "الديون المطابقة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__full_reconcile_id
+msgid "Matching #"
+msgstr "مطابقة #"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في تسليم الرسائل"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__message_ids
+msgid "Messages"
+msgstr "الرسائل"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__move_ids
+msgid "Move"
+msgstr "حركة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "الموعد النهائي للنشاط التالي"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__activity_summary
+msgid "Next Activity Summary"
+msgstr "ملخص النشاط التالي"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع النشاط التالي"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_sequence_number_next
+msgid "Next Number"
+msgstr "الرقم التالي"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_sequence_number_next_prefix
+msgid "Next Number Prefix"
+msgstr "بادئة الرقم التالي"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__blocked
+msgid "No Follow-up"
+msgstr "عدم متابعة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__name
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__move_name
+msgid "Number"
+msgstr "الرقم"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الاخطاء"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "عدد الرسائل التي تتطلب إجراء"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل الحادث بها خطأ في التسليم"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__message_unread_counter
+msgid "Number of unread messages"
+msgstr "عدد الرسائل الجديدة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_origin
+msgid "Origin"
+msgstr "المصدر"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__payment_id
+msgid "Originator Payment"
+msgstr "سداد المنشأ"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__tax_line_id
+msgid "Originator Tax"
+msgstr "الضريبة الأصلية"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__tax_repartition_line_id
+msgid "Originator Tax Repartition Line"
+msgstr "مبدئ سر التقسيم الحسابي"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__tax_group_id
+msgid "Originator tax group"
+msgstr "مبدئ المجموع الضريبي"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__partner_id
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__partner_id
+msgid "Partner"
+msgstr "الشريك"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_payment_state
+msgid "Payment"
+msgstr "دفعة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_payment_ref
+msgid "Payment Reference"
+msgstr "رقم إشارة الدفعة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_payment_term_id
+msgid "Payment Terms"
+msgstr "شروط السداد"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__payment_id
+msgid "Payment that created this entry"
+msgstr "السداد الذى أنشأ هذا القيد"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__method_period
+msgid "Period Length"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__access_url
+msgid "Portal Access URL"
+msgstr "رابط الوصول لبوابة العملاء"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__auto_post
+msgid "Post Automatically"
+msgstr "رحل ذاتياً"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__product_id
+msgid "Product"
+msgstr "المنتج"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__quantity
+msgid "Quantity"
+msgstr "الكمية"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__recompute_tax_line
+msgid "Recompute Tax Line"
+msgstr "إعادة حساب بنود الضريبة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__reconciled
+msgid "Reconciled"
+msgstr "تمت التسوية"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__reconcile_model_id
+msgid "Reconciliation Model"
+msgstr "نموذج التسوية"
+
+#. module: oi_recurring_entries
+#: model:ir.actions.act_window,name:oi_recurring_entries.action_recurring_entry
+#: model:ir.ui.menu,name:oi_recurring_entries.menu_recurring_entry
+msgid "Recurring Entries"
+msgstr "قيود متكررة"
+
+#. module: oi_recurring_entries
+#: model:ir.model,name:oi_recurring_entries.model_recurring_entry
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_account_move__recurring_id
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__recurring_id
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__move_id
+#: model_terms:ir.ui.view,arch_db:oi_recurring_entries.view_recurring_entry_form
+msgid "Recurring Entry"
+msgstr "إدخال متكرر"
+
+#. module: oi_recurring_entries
+#: model:ir.model,name:oi_recurring_entries.model_recurring_entry_line
+msgid "Recurring Entry Line"
+msgstr "بند الإدخال المتكرر"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__recurring_type
+msgid "Recurring Type"
+msgstr "نوع التكرار"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__ref
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__ref
+msgid "Reference"
+msgstr "رقم الإشارة"
+
+#. module: oi_recurring_entries
+#: model_terms:ir.ui.view,arch_db:oi_recurring_entries.view_recurring_entry_form
+msgid "Reset To Draft"
+msgstr "إعادة التعيين لمسودة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__amount_residual
+msgid "Residual Amount"
+msgstr "المبلغ المتبقي"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__amount_residual_currency
+msgid "Residual Amount in Currency"
+msgstr "المبلغ المتبقي بالعملة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__activity_user_id
+msgid "Responsible User"
+msgstr "المستخدم المسؤول"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__reversed_entry_id
+msgid "Reversal of"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields.selection,name:oi_recurring_entries.selection__recurring_entry__recurring_state__running
+msgid "Running"
+msgstr "جاري"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطأ في تسليم الرسائل القصيرة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_user_id
+msgid "Salesperson"
+msgstr "مسئول المبيعات"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__access_token
+msgid "Security Token"
+msgstr "رمز الحماية"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__sequence
+msgid "Sequence"
+msgstr "المسلسل"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_source_email
+msgid "Source Email"
+msgstr "البريد الإلكتروني المصدر"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__date
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__date
+msgid "Start Date"
+msgstr "تاريخ البداية"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__method_period
+msgid "State here the time between 2 entries, in months"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__statement_id
+msgid "Statement"
+msgstr "كشف الحساب"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__recurring_state
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__state
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__parent_state
+msgid "Status"
+msgstr "الحالة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"الحالة على أساس الأنشطة\n"
+"المتأخرة: تاريخ الاستحقاق مر\n"
+"اليوم: تاريخ النشاط هو اليوم\n"
+"المخطط: الأنشطة المستقبلية."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__string_to_hash
+msgid "String To Hash"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__price_subtotal
+msgid "Subtotal"
+msgstr "الإجمالي الفرعي"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__tag_ids
+msgid "Tags"
+msgstr "الوسوم"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__tag_ids
+msgid ""
+"Tags assigned to this line by the tax creating it, if any. It determines "
+"its impact on financial reports."
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__amount_tax
+msgid "Tax"
+msgstr "الضريبة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__tax_audit
+msgid "Tax Audit String"
+msgstr "سلسلة التدقيق الضريبي"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__tax_cash_basis_rec_id
+msgid "Tax Cash Basis Entry of"
+msgstr "قيد الضرائب على حركة النقدية"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__tax_lock_date_message
+msgid "Tax Lock Date Message"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__amount_tax_signed
+msgid "Tax Signed"
+msgstr "توقيع الضريبة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__amount_by_group
+msgid "Tax amount by group"
+msgstr "كمية الضريبة حسب تجميعها"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__tax_repartition_line_id
+msgid ""
+"Tax repartition line that caused the creation of this move line, if any"
+msgstr "سطر توزيع الضريبة الذي تسبب في إنشاء سطر النقل هذا ، إن وجد"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__tax_ids
+msgid "Taxes"
+msgstr "الضرائب"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__tax_ids
+msgid "Taxes that apply on the base amount"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__display_type
+msgid "Technical field for UX purpose."
+msgstr "حقل تقني يهدف لتحسين تجربة المستخدم."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__balance
+msgid ""
+"Technical field holding the debit - credit in order to open meaningful "
+"graph views from reports"
+msgstr ""
+"حقل تقني يحتفظ بالدائن - المدين لكى يفتح رسم بياني ذو معنى يعرض من التقارير"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__bank_partner_id
+msgid "Technical field to get the domain on the bank"
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__always_set_currency_id
+msgid ""
+"Technical field used to compute the monetary field. As currency_id is not a "
+"required field, we need to use either the foreign currency, either the "
+"company one."
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__tax_lock_date_message
+msgid ""
+"Technical field used to display a message when the invoice's accounting "
+"date is prior of the tax lock date."
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__invoice_has_matching_suspense_amount
+msgid ""
+"Technical field used to display an alert on invoices if there is at least a "
+"matching amount in any supsense account."
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__exclude_from_invoice_tab
+msgid ""
+"Technical field used to exclude some lines from the invoice_line_ids tab in "
+"the form view."
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__user_id
+msgid "Technical field used to fit the generic behavior in mail templates."
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__invoice_filter_type_domain
+msgid ""
+"Technical field used to have a dynamic domain on journal / taxes in the "
+"form view."
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__tax_cash_basis_rec_id
+msgid ""
+"Technical field used to keep track of the tax cash basis reconciliation. "
+"This is needed when cancelling the source: it will post the inverse journal "
+"entry to cancel that part too."
+msgstr ""
+"حقل تقني يُستخدم لتتبع تسوية الضرائب على حركة النقدية. وهذا مطلوب عند إلغاء "
+"المصدر: سيقوم بترحيل قيد اليومية المعكوس لإلغاء ذلك الجزء أيضًا."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__recompute_tax_line
+msgid ""
+"Technical field used to know on which lines the taxes must be recomputed."
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__tax_exigible
+msgid ""
+"Technical field used to mark a tax line as exigible in the vat report or "
+"not (only exigible journal items are displayed). By default all new journal "
+"items are directly exigible, but with the feature cash_basis on taxes, some "
+"will become exigible only when the payment is recorded."
+msgstr ""
+"حقل تقني يُستخدم لتحديد ما إن كان البند الضريبي في تقرير ضريبة القيمة "
+"المضافة قابلًا للتغير أم لا. افتراضيًا، تكون جميع العناصر اليومية قابلة "
+"للتغير، لكن بتطبيق خاصية cash_basis على الضرائب، سيصبح بعضهم ملائمًا فقط عند "
+"تسجيل المدفوعات."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__is_rounding_line
+msgid "Technical field used to retrieve the cash rounding line."
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__account_internal_type
+msgid ""
+"The 'Internal Type' is used for features available on different types of "
+"accounts: liquidity type is for cash or bank accounts, payable/receivable "
+"is for vendor/customer accounts."
+msgstr ""
+"يُستخدم 'النوع الداخلي' للخصائص المتاحة على الأنواع المختلفة للحسابات: النوع "
+"الجاري للحسابات النقدية أو البنكية, والدائنة أو المدينة لحسابات المورد/"
+"العميل."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__amount_currency
+msgid ""
+"The amount expressed in an optional other currency if it is a multi-"
+"currency entry."
+msgstr "المبلغ مُعبر عنه بعملات اختيارية أخرى إذا كان قيد متعدد العملات."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__statement_id
+msgid "The bank statement used for bank reconciliation"
+msgstr "كشف الحساب البنكي المستخدم للتسوية"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__invoice_origin
+msgid "The document(s) that generated the invoice."
+msgstr "الوثيقة (الوثائق) التي ولّدت الفاتورة."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__move_id
+msgid "The move of this entry line."
+msgstr "حركة بند القيد هذا."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__quantity
+msgid ""
+"The optional quantity expressed by this line, eg: number of product sold. "
+"The quantity is not a legal requirement but is very useful for some reports."
+msgstr ""
+"الكمية الاختيارية المُعبر عنها بهذا البند, مثل: عدد المنتجات المُباعة. الكمية "
+"ليست متطلب قانونى و لكنها مفيدة جداً لبعض التقارير. "
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__invoice_payment_ref
+msgid "The payment reference to set on journal items."
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__amount_residual_currency
+msgid ""
+"The residual amount on a journal item expressed in its currency (possibly "
+"not the company currency)."
+msgstr ""
+"المبلغ المتبقي لعنصر اليومية مُعبر عنه بعملته (محتمل ألا تكون عملة المؤسسة)."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__amount_residual
+msgid ""
+"The residual amount on a journal item expressed in the company currency."
+msgstr "المبلغ المتبقي لعنصر اليومية مُعبر عنه بعملة المؤسسة."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__to_check
+msgid "To Check"
+msgstr "للتفقد"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__amount_total
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__price_total
+msgid "Total"
+msgstr "الإجمالي"
+
+#. module: oi_recurring_entries
+#: model_terms:ir.ui.view,arch_db:oi_recurring_entries.view_recurring_entry_form
+msgid "Total Credit"
+msgstr "إجمالي الائتمان"
+
+#. module: oi_recurring_entries
+#: model_terms:ir.ui.view,arch_db:oi_recurring_entries.view_recurring_entry_form
+msgid "Total Debit"
+msgstr "إجمالي الدين"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__amount_total_signed
+msgid "Total Signed"
+msgstr "المجموع وقّع."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__type
+msgid "Type"
+msgstr "النوع"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__price_unit
+msgid "Unit Price"
+msgstr "سعر الوحدة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry_line__product_uom_id
+msgid "Unit of Measure"
+msgstr "وحدة القياس"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__message_unread
+msgid "Unread Messages"
+msgstr "الرسائل الجديدة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "عدد الرسائل الجديدة"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__amount_untaxed
+msgid "Untaxed Amount"
+msgstr "المبلغ بدون ضرائب"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__amount_untaxed_signed
+msgid "Untaxed Amount Signed"
+msgstr "المجموع الغير ضريبي غير موقع."
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__user_id
+msgid "User"
+msgstr "المستخدم"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__company_currency_id
+msgid "Utility field to express amount currency"
+msgstr "حقل مساعد للتعبير عن عملة المبلغ"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__invoice_vendor_bill_id
+msgid "Vendor Bill"
+msgstr "فاتورة المورد"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,field_description:oi_recurring_entries.field_recurring_entry__website_message_ids
+msgid "Website Messages"
+msgstr "رسائل الموقع"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry__website_message_ids
+msgid "Website communication history"
+msgstr "سجل تواصل الموقع"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__blocked
+msgid ""
+"You can check this box to mark this journal item as a litigation with the "
+"associated partner"
+msgstr ""
+"يمكنك اختيار هذا المربع لتحديد عنصر اليومية المُختار كدعوى مع الشريك المرتبط"
+
+#. module: oi_recurring_entries
+#: model:ir.model.fields,help:oi_recurring_entries.field_recurring_entry_line__tax_group_id
+msgid "technical field for widget tax-group-custom-field"
+msgstr "حقل تقني لقطعة ضريبية-مجوع-تعديل-حقل"

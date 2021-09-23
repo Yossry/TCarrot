@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_recurring_entry,access_recurring_entry,model_recurring_entry,account.group_account_user,1,1,1,1
+access_recurring_entry_line,access_recurring_entry_line,model_recurring_entry_line,account.group_account_user,1,1,1,1
